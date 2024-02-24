@@ -166,7 +166,6 @@ clock = pygame.time.Clock()
 apple = pygame.image.load('apple.png').convert_alpha()
 game_font = pygame.font.Font('PoetsenOne-Regular.ttf', 25)
 background = pygame.image.load('bg.png')
-mixer.music.play()
 SCREEN_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SCREEN_UPDATE,150)
 
